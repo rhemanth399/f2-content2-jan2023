@@ -27,13 +27,13 @@
   }
   .profession{
     position: relative;
-    left:48px;
+    left:128px;
     padding-bottom: 2px;
     margin-bottom: 2px;
   }
   .age{
     position:relative;
-    left:59px;
+    left:225px;
   }
   input{
     font-size:15px;
@@ -62,3 +62,4 @@
     display: flex;
     
   }
+  
