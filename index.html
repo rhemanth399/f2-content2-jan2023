@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<form id="employeeForm"> 
+    <div class="main">
+    <span class="name">Enter Name</span>
+    <span class="profession">Enter Profession</span>
+    <span class="age">Enter Age</span><br>
+    </div>
+    <section class="values">
+    <span >
+    <input type="text" id="name" placeholder="Name" required>
+    </span>
+    
+
+    
+    <span >
+    <input type="text" id="profession" placeholder="Profession" required>
+    </span>
+
+    <span> 
+    <input type="number" id="age" placeholder="enter age" required>
+    </span>
+   </section>
+   <div class="add">
+    <button  onclick="validateForm()" type="button" class="btn">Add User</button>
+   </div>
+   <br>
+   <p id="error"></p>
+</form>
+<br><br>
+
+<table id="employeeTable">
+    <thead>
+      <tr>
+        <th class="one">Name</th>
+        <th class="one">Profession</th>
+        <th class="one">Age</th>
+      </tr>
+    </thead>
+    <tbody id="employeeTableBody">
+      
+    </tbody>
+  </table>
+  
+  
+
+  <script src="script.js"></script>
+</body>
+</html>

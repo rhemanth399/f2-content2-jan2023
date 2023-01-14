@@ -1,0 +1,64 @@
+*{
+    background-color: black;
+    color:white;
+  }
+  h2{
+    position: relative;
+    left:5px;
+    top:14px;
+  }
+  form{
+    position: relative;
+    top:20px;
+  }
+  
+  .main {
+    display: flex;
+    justify-content: space-between;
+   
+  }
+  .values{
+    display: flex;
+    justify-content: space-between;
+  }
+  .name{
+    position: relative;
+    left:5px;
+  }
+  .profession{
+    position: relative;
+    left:48px;
+    padding-bottom: 2px;
+    margin-bottom: 2px;
+  }
+  .age{
+    position:relative;
+    left:59px;
+  }
+  input{
+    font-size:15px;
+    width:250px;
+    margin: 5px;
+    padding: 4px;
+    border-radius: 5px;
+  }
+  .btn{
+    background-color:white;
+    color:black;
+    width:125px;
+    margin-top: 20px;
+  }
+  p{
+    color:red;
+  }
+  .one{
+    border:1px solid white;
+    padding:10px;
+    margin:10px;
+    
+  }
+  .dubtn{
+    color:white;
+    display: flex;
+    
+  }
